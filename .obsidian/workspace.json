@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ruby On Rails/Rails/Mailer/Mailer.md",
+                "file": "Ruby On Rails/Rails/Mailer/SendGrid.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ruby On Rails/Rails/Mailer/Mailer.md",
+                "file": "Ruby On Rails/Rails/Mailer/SendGrid.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ruby On Rails/Rails/Mailer/Mailer.md",
+                "file": "Ruby On Rails/Rails/Mailer/SendGrid.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ruby On Rails/Rails/Mailer/Mailer.md"
+                "file": "Ruby On Rails/Rails/Mailer/SendGrid.md"
               }
             }
           },
@@ -147,15 +147,15 @@
   },
   "active": "5fb618d4bebe96fc",
   "lastOpenFiles": [
-    "Ruby On Rails/Rails/Mailer/Letter Opener.md",
     "Ruby On Rails/Rails/Mailer/Mailer.md",
-    "Ruby On Rails/Ruby_On_Rails.md",
+    "Ruby On Rails/Rails/Mailer/Letter Opener.md",
     "Ruby On Rails/Gem.md",
+    "Ruby On Rails/Rails/Mailer/SendGrid.md",
+    "Ruby On Rails/Ruby_On_Rails.md",
     "Youtube.md",
     "README.md",
     "Ruby On Rails/Rails/Rails.md",
     "Ruby On Rails/Rails/DataBase/Model.md",
-    "Ruby On Rails/Rails/MVC/MVC.md",
-    "Ruby On Rails/Rails/MVC/Controller.md"
+    "Ruby On Rails/Rails/MVC/MVC.md"
   ]
 }

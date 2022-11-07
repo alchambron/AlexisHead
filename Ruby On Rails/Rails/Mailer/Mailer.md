@@ -166,7 +166,16 @@ Vérification à effectuer
 -   ne surtout pas envoyer des e-mails par erreur, histoire de ne pas prendre le risque de spammer de vrais clients pendant nos tests.
 
 On va utiliser la [[Gem]] nommée [[Letter Opener]].
+> Permet de faire en sorte que dès qu'un e-mail doit être envoyé il est ouvert automatiquement dans le navigateur web. 
+> Permet aussi d'action ou désactiver l'envoie de mail, regarder [[Letter Opener]]
 
+##### 2 - La config en production
+
+L'idée est d'envoyer de vrai e-mail, pour cela il existe différents services. 
+
+Pour le faire, tu as le choix entre plein de services différents : Mandrill by MailChimp, Postmark, Amazon SES, etc. Nous, on a une préférence pour [MailJet](https://www.mailjet.com/) à THP (ils sont efficaces, pas chers et français 🇫🇷 🐓).
+
+Mais pour une raison de fiabilité et de professionnalisme, on va regarder l'utilisation de [[SendGrid]].
 
 
 ### En résumé
