@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "c3a97341a757760c",
+        "id": "b6077661693c4345",
         "type": "tabs",
         "children": [
           {
-            "id": "5fb618d4bebe96fc",
+            "id": "55df74c734277cd3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ruby On Rails/Rails/Mailer/SendGrid.md",
+                "file": "Ruby On Rails/Rails/Mailer/Mailer.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ruby On Rails/Rails/Mailer/SendGrid.md",
+                "file": "Ruby On Rails/Rails/Mailer/Mailer.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ruby On Rails/Rails/Mailer/SendGrid.md",
+                "file": "Ruby On Rails/Rails/Mailer/Mailer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ruby On Rails/Rails/Mailer/SendGrid.md"
+                "file": "Ruby On Rails/Rails/Mailer/Mailer.md"
               }
             }
           },
@@ -145,15 +145,15 @@
     "width": 258.5,
     "collapsed": true
   },
-  "active": "5fb618d4bebe96fc",
+  "active": "55df74c734277cd3",
   "lastOpenFiles": [
-    "Ruby On Rails/Rails/Mailer/Mailer.md",
     "Ruby On Rails/Rails/Mailer/Letter Opener.md",
-    "Ruby On Rails/Gem.md",
     "Ruby On Rails/Rails/Mailer/SendGrid.md",
+    "README.md",
+    "Ruby On Rails/Rails/Mailer/Mailer.md",
+    "Ruby On Rails/Gem.md",
     "Ruby On Rails/Ruby_On_Rails.md",
     "Youtube.md",
-    "README.md",
     "Ruby On Rails/Rails/Rails.md",
     "Ruby On Rails/Rails/DataBase/Model.md",
     "Ruby On Rails/Rails/MVC/MVC.md"
