@@ -34,3 +34,11 @@ Pour cela ajouter dans le modele comprennant la colonne cette ligne
 ```ruby
 has_secure_password
 ```
+
+#### Ajouter une confirmation
+
+```ruby
+password_confirmation
+```
+
+Enregister une seconde colonne du formulaire avec cette sortie. 

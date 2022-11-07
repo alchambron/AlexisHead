@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ruby On Rails/Rails/Mailer/Letter Opener.md",
+                "file": "Ruby On Rails/Gem/Bcrypt.md",
                 "mode": "source",
                 "source": false
               }
@@ -30,21 +30,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "e606e90b33cfb4e7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Ruby On Rails/Gem/Bcrypt.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -63,7 +50,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "bc",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -90,8 +77,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -170,17 +156,17 @@
     "width": 258.5,
     "collapsed": true
   },
-  "active": "e606e90b33cfb4e7",
+  "active": "55df74c734277cd3",
   "lastOpenFiles": [
+    "Ruby On Rails/Rails/Mailer/Letter Opener.md",
+    "Ruby On Rails/Rails/Mailer/Mailer.md",
+    "Ruby On Rails/Gem/Bcrypt.md",
     "Ruby On Rails/Rails/Fonctionnalities/Scaffold.md",
+    "Ruby On Rails/Rails/Mailer/SendGrid.md",
+    "Ruby On Rails/Gem/Better Errors.md",
     "Ruby On Rails/Rails/Basics/Create Rails App.md",
     "Ruby On Rails/Rails/Basics/Créer Formulaire.md",
     "Ruby On Rails/Rails/Basics/Structure Rails.md",
-    "Ruby On Rails/Rails/Basics/Convention REST.md",
-    "THP/Projet/Eventbrite.md",
-    "Ruby On Rails/Rails/Mailer/Letter Opener.md",
-    "Ruby On Rails/Gem/Better Errors.md",
-    "Ruby On Rails/Rails/Mailer/Mailer.md",
-    "Ruby On Rails/Rails/MVC/Controller.md"
+    "Ruby On Rails/Rails/Basics/Convention REST.md"
   ]
 }
