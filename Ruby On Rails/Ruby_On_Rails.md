@@ -17,6 +17,9 @@ Basics
 Fonctionnalities
 - [[Helpers Tag]]
 
+Mailer 
+- [[Mailer]]
+- [[Letter Opener]]
 
 MVC
 - [[MVC]]

@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "23a0a99a3ca3d8d4",
+        "id": "c3a97341a757760c",
         "type": "tabs",
         "children": [
           {
-            "id": "a4bc35efb3127317",
+            "id": "5fb618d4bebe96fc",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -70,8 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 346.5,
-    "collapsed": true
+    "width": 346.5
   },
   "right": {
     "id": "4f99a2856567b984",
@@ -139,25 +138,24 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
     "width": 258.5,
     "collapsed": true
   },
-  "active": "a4bc35efb3127317",
+  "active": "5fb618d4bebe96fc",
   "lastOpenFiles": [
-    "Ruby On Rails/Rails/Rails.md",
+    "Ruby On Rails/Rails/Mailer/Letter Opener.md",
     "Ruby On Rails/Rails/Mailer/Mailer.md",
+    "Ruby On Rails/Ruby_On_Rails.md",
+    "Ruby On Rails/Gem.md",
+    "Youtube.md",
+    "README.md",
+    "Ruby On Rails/Rails/Rails.md",
     "Ruby On Rails/Rails/DataBase/Model.md",
     "Ruby On Rails/Rails/MVC/MVC.md",
-    "Ruby On Rails/Rails/MVC/Controller.md",
-    "THP/Cours/lesson_02.md",
-    "THP/Happy Hours/2022-11-02.md",
-    "Ruby On Rails/Rails/Basics/Create Rails App.md",
-    "Bootstrap/Dropdown menu.md",
-    "Ruby On Rails/Rails/DataBase/Résumé Data Base.md"
+    "Ruby On Rails/Rails/MVC/Controller.md"
   ]
 }

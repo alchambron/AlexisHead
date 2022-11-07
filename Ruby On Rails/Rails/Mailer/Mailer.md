@@ -137,7 +137,36 @@ class User < ApplicationRecord
 ```
 > Exemple de ce qui pourrait être présent dans **Controller "User"**.
 
-Le `after_create` permet de définir que 
+Le `after_create` permet de définir un **call back**. C'est à dire qu'il fera appel à cette def à la fin.
+Cela permet d'eviter de lancer un mail avant qu'un utilisateur soit créer.
+
+En résumé, nous venons de paramétrer la chaîne d'actions suivante :
+
+1.  Un utilisateur est créé en BDD par le model
+2.  Grâce au callback `after_create`, on exécute la méthode `welcome_send` sur l'instance qui vient d'être sauvée en BDD
+3.  `welcome_send` dit, en résumé, "exécute NOW la méthode `welcome_email` située dans le mailer `UserMailer`"
+4.  `welcome_email` va appeler 2 templates en leur mettant à disposition une instance `@user` qui est l'utilisateur créé et une variable `@url` qui est juste un string. Cette méthode enverra ensuite les 2 templates à `@user.email` avec comme sujet "Bienvenue chez nous".
+5.  Les 2 templates (un HTML et un text) sont personnalisés avec les entrées en Ruby (`@user.name`, `@user.email` et `@url`) avant d'être balancés par e-mail
+6.  Et voilà ! 👩‍🍳
+
+
+#### Parametrer l'Action Mailer
+
+Parametrer son **Action Mailer** permet de faire en sorte qu'il envoie des mails pour de vrai. Pour cela il y a deux possibilité : 
+
+1. Soit elle tourne en environnement de développement 
+2. Soit elle tourne en environnement de production (Heroku, fly, etc etc...)
+
+##### 1 - La config en développement 
+
+Vérification à effectuer 
+
+-   vérifier que notre app Rails déclenche bien des envois d’e-mails (=> ça confirmerait que la chaîne entière d’Action Mailer est bien codée et sans bug) ;
+-   vérifier la tronche des e-mails qu'on envoie ;
+-   ne surtout pas envoyer des e-mails par erreur, histoire de ne pas prendre le risque de spammer de vrais clients pendant nos tests.
+
+On va utiliser la [[Gem]] nommée [[Letter Opener]].
+
 
 
 ### En résumé
@@ -146,3 +175,4 @@ Le `after_create` permet de définir que
 - Etape 2 - Parametrer son Action Mailer
 - Etape 3 - Créer ces différentes view 
 - Etape 4 - Dire à rails d'utiliser le action Mailer pour l'envoie.
+- 
