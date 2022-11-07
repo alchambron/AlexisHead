@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ruby On Rails/Rails/Basics/Create Rails App.md",
+                "file": "Ruby On Rails/Rails/Mailer/Letter Opener.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e2d4f1d88d428196",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Ruby On Rails/Rails/Fonctionnalities/Scaffold.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -38,7 +51,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "rails new",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,12 +78,12 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 346.5,
-    "collapsed": true
+    "width": 346.5
   },
   "right": {
     "id": "4f99a2856567b984",
@@ -86,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ruby On Rails/Rails/Basics/Create Rails App.md",
+                "file": "Ruby On Rails/Rails/Fonctionnalities/Scaffold.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ruby On Rails/Rails/Basics/Create Rails App.md",
+                "file": "Ruby On Rails/Rails/Fonctionnalities/Scaffold.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ruby On Rails/Rails/Basics/Create Rails App.md"
+                "file": "Ruby On Rails/Rails/Fonctionnalities/Scaffold.md"
               }
             }
           },
@@ -145,17 +158,17 @@
     "width": 258.5,
     "collapsed": true
   },
-  "active": "55df74c734277cd3",
+  "active": "e2d4f1d88d428196",
   "lastOpenFiles": [
-    "Ruby On Rails/Rails/Mailer/Mailer.md",
-    "Ruby On Rails/Rails/MVC/Controller.md",
-    "Ruby On Rails/Rails/DataBase/Association DataBase.md",
-    "Ruby On Rails/Gem/Better Errors.md",
-    "Ruby On Rails/Gem/Gem.md",
+    "Ruby On Rails/Rails/Basics/Create Rails App.md",
+    "Ruby On Rails/Rails/Basics/Créer Formulaire.md",
+    "Ruby On Rails/Rails/Basics/Structure Rails.md",
+    "Ruby On Rails/Rails/Basics/Convention REST.md",
+    "THP/Projet/Eventbrite.md",
+    "Ruby On Rails/Rails/Fonctionnalities/Scaffold.md",
     "Ruby On Rails/Rails/Mailer/Letter Opener.md",
-    "Ruby On Rails/Rails/Mailer/SendGrid.md",
-    "README.md",
-    "Ruby On Rails/Ruby_On_Rails.md",
-    "Youtube.md"
+    "Ruby On Rails/Gem/Better Errors.md",
+    "Ruby On Rails/Rails/Mailer/Mailer.md",
+    "Ruby On Rails/Rails/MVC/Controller.md"
   ]
 }
