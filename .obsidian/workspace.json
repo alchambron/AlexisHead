@@ -8,24 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "55df74c734277cd3",
+            "id": "f270f94e33621251",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ruby On Rails/Gem/Bcrypt.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e2d4f1d88d428196",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Ruby On Rails/Rails/Fonctionnalities/Scaffold.md",
+                "file": "Ruby On Rails/Gem/Devise.md",
                 "mode": "source",
                 "source": false
               }
@@ -50,7 +38,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "bc",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -77,11 +65,13 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 346.5
+    "width": 346.5,
+    "collapsed": true
   },
   "right": {
     "id": "4f99a2856567b984",
@@ -97,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ruby On Rails/Gem/Bcrypt.md",
+                "file": "Ruby On Rails/Gem/Devise.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ruby On Rails/Gem/Bcrypt.md",
+                "file": "Ruby On Rails/Gem/Devise.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ruby On Rails/Gem/Bcrypt.md"
+                "file": "Ruby On Rails/Gem/Devise.md"
               }
             }
           },
@@ -149,24 +139,25 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
     "width": 258.5,
     "collapsed": true
   },
-  "active": "55df74c734277cd3",
+  "active": "f270f94e33621251",
   "lastOpenFiles": [
-    "Ruby On Rails/Rails/Mailer/Letter Opener.md",
-    "Ruby On Rails/Rails/Mailer/Mailer.md",
-    "Ruby On Rails/Gem/Bcrypt.md",
+    "README.md",
+    "Ruby On Rails/Gem/Devise.md",
+    "Ruby On Rails/Gem/Gem.md",
     "Ruby On Rails/Rails/Fonctionnalities/Scaffold.md",
-    "Ruby On Rails/Rails/Mailer/SendGrid.md",
-    "Ruby On Rails/Gem/Better Errors.md",
-    "Ruby On Rails/Rails/Basics/Create Rails App.md",
-    "Ruby On Rails/Rails/Basics/Créer Formulaire.md",
-    "Ruby On Rails/Rails/Basics/Structure Rails.md",
-    "Ruby On Rails/Rails/Basics/Convention REST.md"
+    "THP/Projet/Eventbrite.md",
+    "Ruby On Rails/Rails/DataBase/Résumé Data Base.md",
+    "Ruby On Rails/Rails/DataBase/Migration.md",
+    "Ruby On Rails/Rails/DataBase/Association DataBase.md",
+    "THP/Happy Hours/2022-11-02.md",
+    "Ruby On Rails/Rails/DataBase/Model.md"
   ]
 }
