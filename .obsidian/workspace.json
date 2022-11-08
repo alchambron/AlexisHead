@@ -140,17 +140,16 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 258.5,
-    "collapsed": true
+    "width": 258.5
   },
-  "active": "f270f94e33621251",
+  "active": "feebd7da8c20bd90",
   "lastOpenFiles": [
-    "README.md",
     "Ruby On Rails/Gem/Devise.md",
+    "README.md",
     "Ruby On Rails/Gem/Gem.md",
     "Ruby On Rails/Rails/Fonctionnalities/Scaffold.md",
     "THP/Projet/Eventbrite.md",
