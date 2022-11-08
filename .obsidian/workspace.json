@@ -8,31 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f270f94e33621251",
+            "id": "51a681b84bb8d204",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Youtube.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e182c29581593f59",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Grafikart.md",
+                "file": "Ruby On Rails/Gem/Bcrypt.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -83,7 +70,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 346.5
+    "width": 346.5,
+    "collapsed": true
   },
   "right": {
     "id": "4f99a2856567b984",
@@ -99,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Grafikart.md",
+                "file": "Ruby On Rails/Gem/Bcrypt.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Grafikart.md",
+                "file": "Ruby On Rails/Gem/Bcrypt.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Grafikart.md"
+                "file": "Ruby On Rails/Gem/Bcrypt.md"
               }
             }
           },
@@ -156,19 +144,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 258.5
+    "width": 258.5,
+    "collapsed": true
   },
-  "active": "e182c29581593f59",
+  "active": "51a681b84bb8d204",
   "lastOpenFiles": [
-    "Youtube.md",
-    "Grafikart.md",
-    "Ruby On Rails/Ruby_On_Rails.md",
+    "Ruby On Rails/Gem/Devise.md",
+    "Source Of Information/Youtube.md",
+    "README.md",
     "Ruby On Rails/Gem/Gem.md",
-    "Ruby On Rails/Rails/Mailer/Mailer.md",
-    "THP/Projet/Eventbrite.md",
-    "Ruby On Rails/Rails/Basics/Create Rails App.md",
-    "Ruby On Rails/Rails/DataBase/Résumé Data Base.md",
-    "Ruby On Rails/Rails/DataBase/Model.md",
-    "Ruby On Rails/Rails/DataBase/Migration.md"
+    "Ruby On Rails/Ruby_On_Rails.md",
+    "Menu.md",
+    "Ruby On Rails/Rails/Fonctionnalities/Helpers Tag/Helpers Tag.md",
+    "SQL/SQL.md",
+    "Ruby On Rails/Rails/Fonctionnalities/Helpers Tag/form_tag.md",
+    "Source Of Information/Grafikart.md"
   ]
 }

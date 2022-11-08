@@ -2,14 +2,13 @@
 
 ## Sommaire
 
-### Ruby
----
+## Ruby
+
+In coming
 
 
+## Rails
 
-
-### Rails
----
 Basics
 - [[Create Rails App]]
 - [[Structure Rails]]
@@ -33,3 +32,7 @@ Database
 - [[Migration]]
 - [[Model]]
 - [[Résumé Data Base]]
+
+## Gem
+
+- [[Gem]]

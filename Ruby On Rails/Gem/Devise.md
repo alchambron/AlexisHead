@@ -179,6 +179,115 @@ Voici l'explication de chaque routes :
 
 **Bonne nouvelle :** Les controllers sont déja configuré pour ces différerentes actions. Et dans 90% des cas nous n'aurons pas à les touchers. 
 
+### Etape 4 - Generation views
 
+Pour generer automatique des views avec Devise, il suffit de mettre cette commandes. 
+
+```shell
+rails generate devise:views
+```
+
+Voici les **différentes views générées** avec cette commandes.
+
+-   `app/views/devise/shared/_links.html.erb` : une petite partial qui affiche les liens dont tu as besoin en fonction de la page (exemple : le lien "mot de passe oublié" sur l'écran de connexion).
+
+-   `app/views/devise/confirmations/new.html.erb` : l'écran de confirmation (pas besoin pour le moment).
+
+-   `app/views/devise/passwords/edit.html.erb` : la vue où tu rentres ton nouveau mot de passe (tu y accèdes en cliquant dans le lien "réinitialiser le mot de passe" dans ton email de réinitialisation de mot de passe).
+
+-   `app/views/devise/passwords/new.html.erb` : l'écran "mot de passe oublié ?" où tu rentres ton adresse email pour recevoir un email de réinitialisation de mot de passe.
+
+-   `app/views/devise/registrations/edit.html.erb` : l'écran pour modifier les informations de son compte utilisateur (notamment son email et son mot de passe).
+
+-   `app/views/devise/registrations/new.html.erb` : la page d'inscription au site.
+
+-   `app/views/devise/sessions/new.html.erb` : la page de connexion au site.
+
+-   `app/views/devise/unlocks/new.html.erb` : écran pour déverrouiller son compte (pas besoin pour le moment).
+
+**Si le ActionMailer est bien configuré** il va aussi générer des views pour ça. 
+
+-   `app/views/devise/mailer/confirmation_instructions.html.erb` : e-mail pour confirmer son compte (pas besoin pour le moment).
+
+-   `app/views/devise/mailer/email_changed.html.erb` : e-mail pour annoncer un changement d'e-mail.
+
+-   `app/views/devise/mailer/password_change.html.erb` : e-mail pour annoncer que ton mot de passe a été changé.
+
+-   `app/views/devise/mailer/reset_password_instructions.html.erb` : e-mail pour donner le lien pour changer de mot de passe.
+
+-   `app/views/devise/mailer/unlock_instructions.html.erb` : e-mail pour débloquer ton compte (pas besoin pour le moment).
+
+## Integration à notre App
+
+#### Etape 1 - Créer controller
+
+```shell
+rails g controller static_pages index secret
+```
+> Exemple de la création d'un controller qui créera deux view
+
+
+#### Etape 2 - Refaire les routes
+
+Aller dans `routes.rb` --> Faire en sorte que la **static_pages#index** soit la root de notre site. 
+
+#### Etape 3 - Mettre en place une redirection de connexion 
+
+```ruby
+<ul>
+      <% if user_signed_in? %>
+        <li>
+          <%= link_to "Sign out", destroy_user_session_path, method: :delete %>
+        </li>
+
+        <li>
+          Voici ton email : <%= current_user.email %>
+        </li>
+
+        <li>
+          <%= link_to "Secret page", static_pages_secret_path %>
+        </li>
+
+        <li>
+          <%= link_to "Edit email / password", edit_user_registration_path %>
+        </li>
+
+      <% else %>
+        <li>    
+          <%= link_to "Sign in", new_user_session_path %>
+        </li>
+
+        <li>
+          <%= link_to "Sign up", new_user_registration_path %>
+        </li>
+
+      <% end %>
+    </ul>
+```
+> En remplissant la view du index, avec ce code on met des conditions de connexion. 
+
+Puis dans le controller utiliser les fonctionnalité de devise. 
+
+**user_signed_in?** - Renvoie true ou false si l'utilisateur est connecté
+**current_user** - Renvoie l'objet `User` correspondant à l'utilisateur connecté. 
+
+## Résumé
+
+-   Mettre Devise dans les gems, puis faire bundle install
+
+-   Installer Devise en entrant la ligne `$ rails generate devise:install`
+    -   Si tu ne l'as pas déjà fait, il faut faire marcher les emails en local dans ton application en mettant la ligne `config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }` dans ton fichier `config/environments/development.rb`
+
+-   Devise est installée, tu peux assigner ton model (99% du temps c'est user) à Devise : `$ rails g devise user`. Puis tu migres.
+
+-   Tu génères les views avec `$ rails generate devise:views`
+
+-   Les 5 views de Devise devront être retouchées (par exemple avec Bootstrap) pour éviter la page de signup moche
+
+-   Tu peux utiliser les super helpers `user_signed_in?` (retourne true/false selon si un utilisateur est connecté) et `current_user` (retourne l'objet User correspondant à la personne connectée)
+
+-   Tu peux bloquer l'accès des visiteurs non-connectés à une page `secret` en rajoutant dans le controller lui correspondant un petit `before_action :authenticate_user!, only: [:secret]`
+
+-   Tu as juste à appeler les views depuis ta page d'accueil et à toi la gloire !
 
 
