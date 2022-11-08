@@ -49,31 +49,30 @@ L'application sera une version minimaliste (mais fonctionnelle, c'est le plus im
 - event_id
 
 
+### Journée Validante
 
--   Tu dois installer Devise sur l'application, et brancher le model `User` à Devise
+#### 2.1 - Branchement de Bootstrap 
 
-[[Devise]]
+1.  Aller chercher une navbar et l'integrer dans le layout
+2. Mettre en places les différents liens dans la navbar et les tester
+3. Aller configurer un drop down (Voir jeudi dernier). 
 
--   Tu vas brancher Bootstrap à ton application
+#### 2.2 Branchement de devise
 
-Brancher le b
+1. Lancer les installation [[Devise]]
+2. Genere le devise avec Users
+3. Modifier le fichier de migration et supprimer les lignes incorect 
+4. Generer les views de devise
+5. Modifier le layout avec les bon liens
 
--   Tu vas faire un header qui comprend les liens importants de ton application, puis le mettre pour toutes les vues de ton application
+Push sur fly
 
-Bootstrap et mettre en place le layout
+#### 2.3 Faire les premieres views
 
+1. Verifier que tout au dessus fonctionne en deploy
+2. Faire la page d'accueil du site 
+3. Faire en entier la view du profil d'un utilisateur
+4. Faire la page de création d'un evenement
+5. Faire la page d'affichage de l'event. 
 
--   Tu vas faire la page d'accueil du site
-
-Rails routes, et configurer la view (inspiration de eventbrite)
-
--   Tu vas faire la page profil d'un utilisateur
-
-Utilisation [[Devise]]
-
--   Tu vas faire la page de création d'événement
-
-Ut
-
--   Tu vas faire la page qui affiche un événement
 

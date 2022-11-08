@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ruby On Rails/Gem/Bcrypt.md",
+                "file": "Ruby On Rails/Rails/Mailer/Mailer.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "389768b9ac07bcb3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "THP/Projet/Eventbrite.md",
                 "mode": "source",
                 "source": false
               }
@@ -87,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ruby On Rails/Gem/Bcrypt.md",
+                "file": "Ruby On Rails/Rails/Mailer/Mailer.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ruby On Rails/Gem/Bcrypt.md",
+                "file": "Ruby On Rails/Rails/Mailer/Mailer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ruby On Rails/Gem/Bcrypt.md"
+                "file": "Ruby On Rails/Rails/Mailer/Mailer.md"
               }
             }
           },
@@ -149,15 +161,15 @@
   },
   "active": "51a681b84bb8d204",
   "lastOpenFiles": [
+    "THP/Projet/Eventbrite.md",
+    "Ruby On Rails/Rails/Mailer/Mailer.md",
+    "Ruby On Rails/Gem/Bcrypt.md",
     "Ruby On Rails/Gem/Devise.md",
     "Source Of Information/Youtube.md",
     "README.md",
     "Ruby On Rails/Gem/Gem.md",
     "Ruby On Rails/Ruby_On_Rails.md",
     "Menu.md",
-    "Ruby On Rails/Rails/Fonctionnalities/Helpers Tag/Helpers Tag.md",
-    "SQL/SQL.md",
-    "Ruby On Rails/Rails/Fonctionnalities/Helpers Tag/form_tag.md",
-    "Source Of Information/Grafikart.md"
+    "Ruby On Rails/Rails/Fonctionnalities/Helpers Tag/Helpers Tag.md"
   ]
 }
