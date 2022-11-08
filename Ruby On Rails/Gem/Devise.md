@@ -4,6 +4,8 @@ Related to : [[Rails]]
 ---
 ## Introduction
 
+[Documentation](https://github.com/heartcombo/devise)
+
 ### Présentation
 
 Devise est une gem permettant de faire toutes l'authentification de l'app pour toi. 
