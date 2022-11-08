@@ -47,3 +47,33 @@ L'application sera une version minimaliste (mais fonctionnelle, c'est le plus im
 
 - user_id 
 - event_id
+
+
+
+-   Tu dois installer Devise sur l'application, et brancher le model `User` à Devise
+
+[[Devise]]
+
+-   Tu vas brancher Bootstrap à ton application
+
+Brancher le b
+
+-   Tu vas faire un header qui comprend les liens importants de ton application, puis le mettre pour toutes les vues de ton application
+
+Bootstrap et mettre en place le layout
+
+
+-   Tu vas faire la page d'accueil du site
+
+Rails routes, et configurer la view (inspiration de eventbrite)
+
+-   Tu vas faire la page profil d'un utilisateur
+
+Utilisation [[Devise]]
+
+-   Tu vas faire la page de création d'événement
+
+Ut
+
+-   Tu vas faire la page qui affiche un événement
+

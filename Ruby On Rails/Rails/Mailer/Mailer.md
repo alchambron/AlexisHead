@@ -184,4 +184,3 @@ Mais pour une raison de fiabilité et de professionnalisme, on va regarder l'uti
 - Etape 2 - Parametrer son Action Mailer
 - Etape 3 - Créer ces différentes view 
 - Etape 4 - Dire à rails d'utiliser le action Mailer pour l'envoie.
-- 
