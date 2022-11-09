@@ -15,6 +15,7 @@ Basics
 
 Fonctionnalities
 - [[Helpers Tag]]
+- [[Stripe]]
 
 Mailer 
 - [[Mailer]]
