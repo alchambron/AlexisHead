@@ -25,14 +25,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ruby On Rails/Gem/Devise.md",
+                "file": "Bootstrap/BS5-Spacing.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d8790468de92777b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "THP/Projets Final Full Stack/First Office Hours.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d549d2b723b612bb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Ruby On Rails/Rails/Mailer/Mailer.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -83,8 +107,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 346.5,
-    "collapsed": true
+    "width": 346.5
   },
   "right": {
     "id": "4f99a2856567b984",
@@ -100,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ruby On Rails/Gem/Devise.md",
+                "file": "THP/Projets Final Full Stack/First Office Hours.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ruby On Rails/Gem/Devise.md",
+                "file": "THP/Projets Final Full Stack/First Office Hours.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ruby On Rails/Gem/Devise.md"
+                "file": "THP/Projets Final Full Stack/First Office Hours.md"
               }
             }
           },
@@ -157,20 +180,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 258.5,
-    "collapsed": true
+    "width": 258.5
   },
-  "active": "9b40efd3bfe1be8c",
+  "active": "d8790468de92777b",
   "lastOpenFiles": [
-    "THP/Projet/Eventbrite.md",
-    "Ruby On Rails/Gem/Devise.md",
+    "Bootstrap/BS5-Spacing.md",
     "Bootstrap/Dropdown menu.md",
+    "Bootstrap/Bootstrap.md",
+    "Ruby On Rails/Gem/Devise.md",
     "Ruby On Rails/Rails/Mailer/Mailer.md",
+    "THP/Projet/Eventbrite.md",
     "Ruby On Rails/Gem/Bcrypt.md",
     "Source Of Information/Youtube.md",
     "README.md",
-    "Ruby On Rails/Gem/Gem.md",
-    "Ruby On Rails/Ruby_On_Rails.md",
-    "Menu.md"
+    "Ruby On Rails/Gem/Gem.md"
   ]
 }
