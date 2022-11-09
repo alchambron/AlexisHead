@@ -23,12 +23,8 @@
             "id": "9b40efd3bfe1be8c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Bootstrap/BS5-Spacing.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           },
           {
@@ -37,7 +33,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "THP/Projets Final Full Stack/First Office Hours.md",
+                "file": "Github/Profile/Improve Github Profile.md",
                 "mode": "source",
                 "source": false
               }
@@ -123,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "THP/Projets Final Full Stack/First Office Hours.md",
+                "file": "Github/Profile/Improve Github Profile.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "THP/Projets Final Full Stack/First Office Hours.md",
+                "file": "Github/Profile/Improve Github Profile.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "THP/Projets Final Full Stack/First Office Hours.md"
+                "file": "Github/Profile/Improve Github Profile.md"
               }
             }
           },
@@ -184,15 +180,15 @@
   },
   "active": "d8790468de92777b",
   "lastOpenFiles": [
-    "Bootstrap/BS5-Spacing.md",
-    "Bootstrap/Dropdown menu.md",
-    "Bootstrap/Bootstrap.md",
-    "Ruby On Rails/Gem/Devise.md",
-    "Ruby On Rails/Rails/Mailer/Mailer.md",
-    "THP/Projet/Eventbrite.md",
-    "Ruby On Rails/Gem/Bcrypt.md",
-    "Source Of Information/Youtube.md",
+    "Menu.md",
     "README.md",
-    "Ruby On Rails/Gem/Gem.md"
+    "Source Of Information/Youtube/Youtube.md",
+    "Source Of Information/Youtube/Channel/Grafikart.md",
+    "Ruby On Rails/Ruby_On_Rails.md",
+    "Github/Github.md",
+    "Database/Database.md",
+    "Database/Théorie/UML - Diagrammes de classes.md",
+    "Database/SQLite3/SQLlite3.md",
+    "Bootstrap/Bootstrap.md"
   ]
 }

@@ -2,12 +2,12 @@
 
 ## Sommaire
 
-## Ruby
+#### Ruby
 
 In coming
 
 
-## Rails
+#### Rails
 
 Basics
 - [[Create Rails App]]
@@ -33,6 +33,6 @@ Database
 - [[Model]]
 - [[Résumé Data Base]]
 
-## Gem
+#### Gem
 
 - [[Gem]]
