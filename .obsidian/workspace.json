@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ruby On Rails/Rails/Fonctionnalities/Stripe.md",
+                "file": "CSS/Fonctionnalités/Hoover.md",
                 "mode": "source",
                 "source": false
               }
@@ -38,7 +38,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#CSS",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,8 +65,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ruby On Rails/Rails/Fonctionnalities/Stripe.md",
+                "file": "CSS/Fonctionnalités/Hoover.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ruby On Rails/Rails/Fonctionnalities/Stripe.md",
+                "file": "CSS/Fonctionnalités/Hoover.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ruby On Rails/Rails/Fonctionnalities/Stripe.md"
+                "file": "CSS/Fonctionnalités/Hoover.md"
               }
             }
           },
@@ -146,17 +145,17 @@
     "width": 258.5,
     "collapsed": true
   },
-  "active": "b1d20915d988f660",
+  "active": "23f6e456673152db",
   "lastOpenFiles": [
+    "CSS/CSS.md",
+    "Menu.md",
+    "Ruby On Rails/Rails/Fonctionnalities/Stripe.md",
     "Ruby On Rails/Rails/Mailer/Mailer.md",
     "Ruby On Rails/Ruby_On_Rails.md",
-    "Menu.md",
     "Ruby On Rails/Rails/Fonctionnalities/Truncate.md",
-    "Ruby On Rails/Rails/Fonctionnalities/Stripe.md",
     "Ruby On Rails/Rails/Rails.md",
     "Ruby On Rails/Ruby/Ruby.md",
     "README.md",
-    "THP/Projet/Eventbrite.md",
-    "Github/Profile/Improve Github Profile.md"
+    "THP/Projet/Eventbrite.md"
   ]
 }
