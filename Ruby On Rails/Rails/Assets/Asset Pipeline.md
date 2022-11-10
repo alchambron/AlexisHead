@@ -22,5 +22,7 @@ Ces lignes indiquent à Rails que toutes tes views (`application.html.erb` est 
 
 Ces deux fichiers `application.css` et `application.js` sont donc appelé par rails et ce sont eux 
 
+
+
 --- 
 
