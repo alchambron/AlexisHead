@@ -1,10 +1,13 @@
 Related to : [[Gem]]
 Related to : [[Rails]]
 
+#rails #gem
+
 ---
 ## Introduction
 
 [Documentation](https://github.com/heartcombo/devise)
+[Liste complet des tutos Devise](https://github.com/heartcombo/devise/wiki/How-Tos)
 
 ### Présentation
 
@@ -273,6 +276,27 @@ Puis dans le controller utiliser les fonctionnalité de devise.
 **user_signed_in?** - Renvoie true ou false si l'utilisateur est connecté
 **current_user** - Renvoie l'objet `User` correspondant à l'utilisateur connecté. 
 
+## Aggrandir le formulaire précréer par Devise
+
+Lorsque Devise créer un formulaire, il est vite compliqué de savoir comment le modifier, autant il est possible de modifier la view et rajouter des éléments dans le formulaire, autant les informations ne s'envoie pas vers la base de donnée. 
+
+Pour régler ça il faut indiquer à Devise un changement spécifique. 
+
+[Explication Complete de customisation des éléments d'un formulaire devise](https://gist.github.com/withoutwax/46a05861aa4750384df971b641170407)
+
+Mais en étape il faudrait : 
+
+1. Faire la modification de la view ou est présent le terminal, et ajouter les colonnes voulu. 
+2. Ensuite **aller** dans `app/controller/application_controller.rb` et ajouter ces lignes : 
+
+```ruby
+  before_action :configure_devise_parameters, if: :devise_controller?
+
+    def configure_devise_parameters
+      devise_parameter_sanitizer.permit(:sign_up) {|u| u.permit(:first_name, :last_name, :is_alive, :email, :password, :password_confirmation)}
+      devise_parameter_sanitizer.permit(:account_update) {|u| u.permit(:first_name, :last_name, :is_alive, :email, :password, :password_confirmation)}
+    end
+```
 
 
 ## Résumé

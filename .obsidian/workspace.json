@@ -18,21 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "f4339c947a89c119",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Ruby On Rails/Gem/Devise.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -100,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ruby On Rails/Gem/Devise.md",
+                "file": "Ruby On Rails/Rails/Assets/Asset Pipeline.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ruby On Rails/Gem/Devise.md",
+                "file": "Ruby On Rails/Rails/Assets/Asset Pipeline.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ruby On Rails/Gem/Devise.md"
+                "file": "Ruby On Rails/Rails/Assets/Asset Pipeline.md"
               }
             }
           },
@@ -157,10 +144,12 @@
       }
     ],
     "direction": "horizontal",
-    "width": 258.5
+    "width": 258.5,
+    "collapsed": true
   },
-  "active": "f4339c947a89c119",
+  "active": "c5680b475a8e190c",
   "lastOpenFiles": [
+    "Ruby On Rails/Gem/Devise.md",
     "Ruby On Rails/Rails/Assets/Asset Pipeline.md",
     "CSS/Fonctionnalités/Hoover.md",
     "IDE/Vim.md",
@@ -169,7 +158,6 @@
     "IDE/Neovim/Neovim.md",
     "CSS/CSS.md",
     "Ruby On Rails/Rails/Fonctionnalities/Stripe.md",
-    "Ruby On Rails/Rails/Mailer/Mailer.md",
-    "Ruby On Rails/Ruby_On_Rails.md"
+    "Ruby On Rails/Rails/Mailer/Mailer.md"
   ]
 }
