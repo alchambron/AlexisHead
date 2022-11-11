@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c5680b475a8e190c",
+            "id": "7d62891edf83131c",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "bbfff8addfd15dc6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Ruby On Rails/Gem/Devise.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -38,7 +51,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "devise",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,8 +78,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -87,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ruby On Rails/Rails/Assets/Asset Pipeline.md",
+                "file": "Ruby On Rails/Gem/Devise.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ruby On Rails/Rails/Assets/Asset Pipeline.md",
+                "file": "Ruby On Rails/Gem/Devise.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ruby On Rails/Rails/Assets/Asset Pipeline.md"
+                "file": "Ruby On Rails/Gem/Devise.md"
               }
             }
           },
@@ -147,17 +159,17 @@
     "width": 258.5,
     "collapsed": true
   },
-  "active": "c5680b475a8e190c",
+  "active": "bbfff8addfd15dc6",
   "lastOpenFiles": [
-    "Ruby On Rails/Gem/Devise.md",
     "Ruby On Rails/Rails/Assets/Asset Pipeline.md",
-    "CSS/Fonctionnalités/Hoover.md",
+    "Ruby On Rails/Rails/Fonctionnalities/Stripe.md",
     "IDE/Vim.md",
+    "Ruby On Rails/Gem/Devise.md",
+    "_assets/CleanShot 2022-11-10 at 17.36.19@2x.png",
+    "CSS/Fonctionnalités/Hoover.md",
     "IDE/IDE.md",
     "Menu.md",
     "IDE/Neovim/Neovim.md",
-    "CSS/CSS.md",
-    "Ruby On Rails/Rails/Fonctionnalities/Stripe.md",
-    "Ruby On Rails/Rails/Mailer/Mailer.md"
+    "CSS/CSS.md"
   ]
 }

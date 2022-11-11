@@ -225,4 +225,49 @@ Voici à quoi ressemble les logs à ce moment :
     INFO -- : Writing /thp/public/assets/application-661b0c4ab5de949af640c3fb9b4c885edc3beeec72f2e393338b3eee2f9daf39.js.gz
 ```
 
-Si l'ont regarde les logs, 
+Si l'ont regarde les logs, on remarque une clé de hash généré pour chaque fichier. 
+
+A savoir en cas de relance, un fichier non modifier gardera le même hash, donc ne sera pas modifier ici ce qui est pratique.
+
+#### Quelques commandes
+
+-   `$ rails assets:clean` va **supprimer tous les assets précompilés** avant et ne laisser que ceux créés par la dernière génération de l’Asset Pipeline
+
+-   `$ rails assets:clobber` va **simplement supprimer tout le répertoire** `public/assets`. Comme ça au moins, c’est clair et propre, ya juste plus rien !! On peut repartir sur de bonnes bases
+
+#### Dans le cas de rails en mode production
+
+Il faut savoir que le **rails asset precompile sera lancé par l'hebergeur** (heroku, fly...). 
+Donc nous utilisons cette commande pour **se rendre compte en local** de ce qui se passera en production. 
+
+Pour tout bien configurer comme si voici la marche à suivre : 
+
+```shell
+rails assets:precompile
+```
+
+Puis ensuite pour lancer le serveur rails comme si on était en production voici la commande 
+
+```ruby
+RAILS_ENV=production RAILS_SERVE_STATIC_FILES=true rails server
+```
+> Conseil créer un alias pour cette commande : Alias = rsprod
+
+Lorsque Puma va lancer le serveur en local il affichera ça 
+
+```shell
+    => Booting Puma
+    => Rails 7.0.4 application starting in production 
+    => Run `rails server -h` for more startup options
+    Puma starting in single mode...
+    * Version 5.6.5 (ruby 3.0.0-p0), codename: Llamas in Pajamas
+    * Min threads: 5, max threads: 5
+    * Environment: production
+    * Listening on tcp://0.0.0.0:3000
+    Use Ctrl-C to stop
+```
+
+S'il affiche `Environment: production`, tu es bien en production !
+
+
+

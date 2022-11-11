@@ -284,6 +284,8 @@ Pour régler ça il faut indiquer à Devise un changement spécifique.
 
 [Explication Complete de customisation des éléments d'un formulaire devise](https://gist.github.com/withoutwax/46a05861aa4750384df971b641170407)
 
+[Autre solution](https://dev.to/casseylottman/adding-a-field-to-your-sign-up-form-with-devise-10i1)
+
 Mais en étape il faudrait : 
 
 1. Faire la modification de la view ou est présent le terminal, et ajouter les colonnes voulu. 
