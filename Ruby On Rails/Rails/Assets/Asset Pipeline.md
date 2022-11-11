@@ -269,5 +269,9 @@ Lorsque Puma va lancer le serveur en local il affichera ça
 
 S'il affiche `Environment: production`, tu es bien en production !
 
+#### Et les images ?
+
+Pour toutes les images à ajouter il faut les stocker dans le répertoire `app/assets/images/`.
+> L'asset pipeline fera le lien entre le fichier et son chemin "réel" une fois en production.
 
 
