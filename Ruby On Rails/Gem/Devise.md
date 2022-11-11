@@ -273,6 +273,8 @@ Puis dans le controller utiliser les fonctionnalité de devise.
 **user_signed_in?** - Renvoie true ou false si l'utilisateur est connecté
 **current_user** - Renvoie l'objet `User` correspondant à l'utilisateur connecté. 
 
+
+
 ## Résumé
 
 -   Mettre Devise dans les gems, puis faire bundle install

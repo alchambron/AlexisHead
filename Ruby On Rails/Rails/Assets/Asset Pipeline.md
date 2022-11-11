@@ -225,3 +225,4 @@ Voici à quoi ressemble les logs à ce moment :
     INFO -- : Writing /thp/public/assets/application-661b0c4ab5de949af640c3fb9b4c885edc3beeec72f2e393338b3eee2f9daf39.js.gz
 ```
 
+Si l'ont regarde les logs, 
