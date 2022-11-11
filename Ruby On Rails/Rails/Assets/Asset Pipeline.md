@@ -274,4 +274,265 @@ S'il affiche `Environment: production`, tu es bien en production !
 Pour toutes les images à ajouter il faut les stocker dans le répertoire `app/assets/images/`.
 > L'asset pipeline fera le lien entre le fichier et son chemin "réel" une fois en production.
 
+Maintenant il faut dire à l'Asset Pipeline qu'on veut utiliser une image. 
+Dans l'idée on le spécifiera dans le fichier css. Voici un exemple
+
+```css
+body {
+      background: url(asset_path('backgrounds/bg1.png')) no-repeat center center;
+    }
+```
+> Cette ligne veut dire que la source de notre background sera une URL et que l’URL en question est déterminée par l’Asset Pipeline pour une fichier dont la fin du chemin est `backgrounds/bg1.png`
+
+A noter : tu peux utiliser `image_path` au lieu de `asset_path` si tu veux. La fonction `asset_path` sait retrouver toute ressource présente dans le répertoire `app/assets/`, ce qui fait qu’elle fonctionne aussi pour les fonts ou même les vidéos si tu en stockes dans les assets (mauvaise idée pour les vidéos).
+
+#### Pour les polices d'écriture 
+
+Même logique, créer un dossier `app/assets/fonts/` et de la même manière tout reste rangés.
+
+## Integration d'un thème Boostrap
+
+#### La logique
+
+Related to : [[Bootstrap]]
+Related to : [[Thème Bootstrap]]
+
+[Exemple d'un thème Bootstrap](https://startbootstrap.com/template/modern-business)
+
+Lorsqu'on trouve un thème qui nous plait il faut dans un premier temps essayer de le comprendre. 
+
+Ce pas à pas va être en **deux parties** :
+
+-   la première est la compréhension d’une librairie externe. En comprenant ce que tu as dans le dossier, son intégration sera d’autant plus simple
+-   le seconde sera son intégration : une fois que tu as compris comment marche le template
+
+#### Comprendre un thème
+
+Dans la quasi totalité des thèmes bootstrap, il est présent un `README.md`
+Le lire peut aider, et souvent parle d'installation de prérequis. 
+
+```shell
+    .
+    ├── 404.html
+    ├── about.html
+    ├── blog-home-1.html
+    ├── blog-home-2.html
+    ├── blog-post.html
+    ├── contact.html
+    ├── css
+    │   └── modern-business.css
+    ├── faq.html
+    ├── full-width.html
+    ├── gulpfile.js
+    ├── index.html
+    ├── js
+    │   ├── contact_me.js
+    │   └── jqBootstrapValidation.js
+    ├── LICENSE
+    ├── mail
+    │   └── contact_me.php
+    ├── package.json
+    ├── package-lock.json
+    ├── portfolio-1-col.html
+    ├── portfolio-2-col.html
+    ├── portfolio-3-col.html
+    ├── portfolio-4-col.html
+    ├── portfolio-item.html
+    ├── pricing.html
+    ├── README.md
+    ├── services.html
+    ├── sidebar.html
+    └── vendor
+        ├── bootstrap
+        │   ├── css
+        │   │   ├── bootstrap.css
+        │   │   ├── bootstrap.css.map
+        │   │   ├── bootstrap-grid.css
+        │   │   ├── bootstrap-grid.css.map
+        │   │   ├── bootstrap-grid.min.css
+        │   │   ├── bootstrap-grid.min.css.map
+        │   │   ├── bootstrap.min.css
+        │   │   ├── bootstrap.min.css.map
+        │   │   ├── bootstrap-reboot.css
+        │   │   ├── bootstrap-reboot.css.map
+        │   │   ├── bootstrap-reboot.min.css
+        │   │   └── bootstrap-reboot.min.css.map
+        │   └── js
+        │       ├── bootstrap.bundle.js
+        │       ├── bootstrap.bundle.js.map
+        │       ├── bootstrap.bundle.min.js
+        │       ├── bootstrap.bundle.min.js.map
+        │       ├── bootstrap.js
+        │       ├── bootstrap.js.map
+        │       ├── bootstrap.min.js
+        │       └── bootstrap.min.js.map
+        └── jquery
+            ├── jquery.js
+            ├── jquery.min.js
+            ├── jquery.min.map
+            ├── jquery.slim.js
+            ├── jquery.slim.min.js
+            └── jquery.slim.min.map
+```
+> Voici la structure d'un thème boostrap
+
+**Astuce** : La plupart des thèmes contienne un `index.html` qui sera une sortie d'exemple du thème pour tester. Une sorte de démo. 
+
+Donc si on oublie les fichier HTML, voici à quoi ressemble un thème : 
+
+```shell
+  ├── css
+    │   └── modern-business.css
+    ├── gulpfile.js
+    ├── js
+    │   ├── contact_me.js
+    │   └── jqBootstrapValidation.js
+    ├── LICENSE
+    ├── mail
+    │   └── contact_me.php
+    ├── package.json
+    ├── package-lock.json
+    ├── README.md
+    └── vendor
+        ├── bootstrap
+        │   ├── css
+        │   │   ├── bootstrap.css
+        │   │   ├── et plein d’autres fchiers CSS de Bootstrap
+        │   └── js
+        │       ├── bootstrap.js
+        │       ├── et plein d’autre fichiers JS de Bootstrap
+        └── jquery
+                ├── jquery.js
+                └── et plein d’autres fichiers pour jQuery
+```
+> Vu de la structure d'un template bootstrap sans les html.
+
+Si on décompose 
+
+-   un dossier `css/` qui **contient le css** du thème : c’est important pour nous
+
+-   un fichier `gulpfile.js` : après une recherche Internet, on peut voir que ce dernier **permet d’automatiser des tâches**. Cela ne nous concerne pas pour la librairie
+
+-   un dossier `js/` qui **contient le javascript** de notre application. On verra avec JS tout ce qui est JS : pas besoin d’en tenir compte pour le moment
+
+-   un fichier `LICENSE` qui nous explique la license de la librairie. Elle est en MIT license donc c’est cool
+
+-   un dossier `mail/` qui **contient un programme en PHP pour faire tourner le mailer**. Nous on s’en fout : poubelle
+
+-   deux fichiers `package.json` qui permettent à **Webpack de gérer la librairie** : on n’en n’a pas besoin non plus
+
+-   un dossier `vendor/` **qui contient deux librairies : Bootstrap et jQuery**. C’est important pour nous
+
+Donc **en résumé** ce qui nous interesse : 
+
+-   le dossier `vendor/` qui contient les librairies externes
+-   le dossier `css/` qui contient le CSS de notre thème
+-   le dossier `js/` qui contient le js de notre app (mais on verra cela plus tard)
+
+##### Verifier qu'un template marche bien
+
+```html
+ <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/modern-business.css" rel="stylesheet">
+
+    (plein de lignes de HTML)
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+```
+> Exemple d'un index.html
+
+Cela veut dire que le fichier `index.html` pour marcher parfaitement a besoin de :
+
+-   le fichier css de Bootstrap
+-   le fichier css du thème
+-   le fichier JS de jQuery
+-   le fichier JS de Bootstrap
+
+Bam, cela veut dire que tu as besoin des librairies suivantes :
+
+-   Bootstrap (CSS et JS)
+-   du thème (CSS)
+-   jQuery (JS)
+
+#### Installer un thème 
+
+Voici les étapes pour bien placer tout les éléments au bon endroit au sein de notre application. 
+
+##### Créer les fichiers nécessaire 
+
+Dans un premier temps il faut mettre les librairie dans l'asset pipeline.
+Dans notre exemple il s'agit de : 
+
+-   Bootstrap (CSS et JS)
+-   le thème (CSS)
+-   jQuery (JS)
+
+Ces trois librairies iront dans le dossier `vendor/` donc je te laisse créer les bons sous-dossiers :
+
+-   `vendor/assets/`
+-   `vendor/assets/stylesheets/`
+-   `vendor/assets/javascripts/` (nous verrons plus en détails comment s’occuper de JS quand on fera du JS, mais je te montre quelques bases)
+
+Ensuite, tu vas devoir intégrer 4 fichiers :
+
+-   `vendor/assets/stylesheets/bootstrap.css` que tu trouves dans `ton_thème/vendor/bootstrap/css/`
+-   `vendor/assets/stylesheets/modern-business.css` que tu trouves dans `ton_thème/css/`
+-   `vendor/assets/javascripts/bootstrap.bundle.js` que tu trouves dans `ton_thème/vendor/bootstrap/js/`
+-   `vendor/assets/javascripts/jquery.js` que tu trouves dans `vendor/jquery/`
+
+##### Configurer assets.rb
+
+Il faut dire à l'asset pipeline que maintenant il peut avoir accès à de nouveaux fichiers. 
+
+Pour cela dans le fichier `assets.rb`  il faut ajouter les lignes suivantes 
+
+```ruby
+Rails.application.config.assets.paths << Rails.root.join("vendor", "assets", "stylesheets")
+
+Rails.application.config.assets.paths << Rails.root.join("vendor", "assets", "javascripts")
+```
+> Ne pas oublier de relancer le serveur
+
+
+##### Les manifests
+
+Pour rappel ce sont les deux gros fichiers `application.css` et `application.js`.
+
+Retire les lignes
+
+```ruby
+     *= require_tree .
+     *= require_self
+```
+
+Et remplace-les par les lignes suivantes :
+
+```ruby
+     *= require bootstrap
+     *= require modern-business
+```
+
+Idem pour le fichier application.js, retire la ligne `//= require_tree .` et remplace-la par les lignes suivantes :
+
+```ruby
+    //= require jquery
+    //= require bootstrap
+```
+
+##### Ouvrir le template
+
+Une fois tout télécharger et parametrer plus qu'a copier le body du `index.html`
+
+Et si tout marche cela devrait apparaitre sur le serveur. 
+
+**Ne pas oublier** de lancer le serveur avec cette commandes : 
+
+```shell
+    $ RAILS_ENV=production RAILS_SERVE_STATIC_FILES=true rails s
+```
 

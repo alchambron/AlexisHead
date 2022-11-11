@@ -9,6 +9,9 @@ In coming
 
 #### Rails
 
+Assets
+- [[Asset Pipeline]]
+
 Basics
 - [[Create Rails App]]
 - [[Structure Rails]]
@@ -16,6 +19,7 @@ Basics
 Fonctionnalities
 - [[Helpers Tag]]
 - [[Stripe]]
+- [[Active Storage]]
 
 Mailer 
 - [[Mailer]]
