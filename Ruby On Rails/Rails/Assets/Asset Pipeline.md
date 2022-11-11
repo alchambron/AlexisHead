@@ -195,3 +195,33 @@ Pour gérer tous ces fichiers voici à quoi cela ressemblerais dans le `applicat
     */
 ```
 
+##### Alerte erreur
+
+**Attention** il ne faut pas ajouter n'importe comment du CSS dans un sous fichier (par exemple au dessus, ne pas ajouter du CSS général dans le day.css). 
+
+Certes le CSS sera compris, mais ce sera vite un problème. 
+
+Donc tout CSS généralisé doit absolument être dans `main.css`.
+
+---
+
+#### Lancer l'asset pipeline
+
+Pour lancer le processus de réduction et de compilation du code on va indiquer à rails que notre code est pret et qu'il peut tout réduire. 
+
+```ruby
+rails assets:precompile
+```
+>Cette commande va lancer le compiler et générer un fichier qui comprendra tous le code en un, et qui sera donc plus facilement lisible. 
+
+Voici à quoi ressemble les logs à ce moment : 
+
+```shell
+  INFO -- : Writing /thp/public/assets/application-ff05acb16c68bfa2f1464c09aeeba8ce0374d32bfd5cb007f366f5e7d69234c1.css
+    INFO -- : Writing /thp/public/assets/application-ff05acb16c68bfa2f1464c09aeeba8ce0374d32bfd5cb007f366f5e7d69234c1.css.gz
+    INFO -- : Writing /thp/public/assets/favicon/apple-touch-icon-120x120-precomposed-372de868f08319961b72ba7e3b1ed7121e75e29c8294334cb2c911409ea18131.png
+    INFO -- : Writing /thp/public/assets/favicon/apple-touch-icon-120x120-372de868f08319961b72ba7e3b1ed7121e75e29c8294334cb2c911409ea18131.png
+    INFO -- : Writing /thp/public/assets/application-661b0c4ab5de949af640c3fb9b4c885edc3beeec72f2e393338b3eee2f9daf39.js
+    INFO -- : Writing /thp/public/assets/application-661b0c4ab5de949af640c3fb9b4c885edc3beeec72f2e393338b3eee2f9daf39.js.gz
+```
+
