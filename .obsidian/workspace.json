@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTML/HTML.md",
+                "file": "THP/Projets Final Full Stack/Reunion/Reunion 1 - 2022-11-14.md",
                 "mode": "source",
                 "source": false
               }
@@ -70,7 +70,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 346.5
+    "width": 346.5,
+    "collapsed": true
   },
   "right": {
     "id": "4f99a2856567b984",
@@ -86,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HTML/HTML.md",
+                "file": "THP/Projets Final Full Stack/Reunion/Reunion 1 - 2022-11-14.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HTML/HTML.md",
+                "file": "THP/Projets Final Full Stack/Reunion/Reunion 1 - 2022-11-14.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HTML/HTML.md"
+                "file": "THP/Projets Final Full Stack/Reunion/Reunion 1 - 2022-11-14.md"
               }
             }
           },
@@ -139,16 +140,17 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
     "width": 258.5,
     "collapsed": true
   },
-  "active": "723dbd3d0b8a4204",
+  "active": "44821f562065c752",
   "lastOpenFiles": [
     "Menu.md",
+    "HTML/HTML.md",
     "Ruby On Rails/Ruby_On_Rails.md",
     "Ruby On Rails/Rails/Rails.md",
     "Github/Github.md",
@@ -156,7 +158,6 @@
     "Ruby On Rails/Rails/Fonctionnalities/Active Storage.md",
     "IDE/Neovim/Nvchad.md",
     "CSS/Fondamentaux/Grid Layout.md",
-    "IDE/Neovim/Neovim.md",
-    "Ruby On Rails/Rails/Assets/Asset Pipeline.md"
+    "IDE/Neovim/Neovim.md"
   ]
 }
