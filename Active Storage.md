@@ -62,5 +62,77 @@ Dans un second temps on décide d'une variable, à qui on fera appel dans nos co
 
 #### Mise en place dans une page show
 
+Dans un premier temps, il faut aller dans le controller pour préparer une page view idéal. 
+Une fois avoir tout préparer (routes, controller, view), on va pouvoir en HTML préparer une page pour récupérer des éléments.
+
+```ruby
+<h1>Page Profil</h1>
+
+    <p>Bienvenue sur la page d'ajout d'un avatar pour le User portant l'id : <%=@user.id%></p>
+    <h3>Avatar actuel</h3>
+    <%if @user.avatar.attached?%>
+      <%= image_tag @user.avatar, alt: 'avatar' %>
+    <%else%>
+      <p>=== Il n'y a pas encore d'avatar lié à cet utilisateur ===</p>
+    <%end%>
+```
+> Exemple de chose possible à faire avec l'idée d'un avatar d'utilisateur. 
+
+Donc nous allons faire un formulaire qui va viser à demander à l'utilisateur de mettre à jour sa photo de profil par exemple. 
+
+```ruby
+    <%= form_tag do %>
+      <%= file_field_tag :avatar %>
+      <%= submit_tag "uploader l'avatar" %>
+    <% end %>
+```
+> Voici un formulaire qui cherche à demander un fichier, et l'enregistrer sous la variable :avatar. 
+
+**Attention** le formulaire n'est pas encore complet. Suite plus bas. 
+
+Maintenant plus qu'a récuperer les information dans notre controller et mettre à jour la base de donnée. 
+
+#### Le controller "avatars"
+
+Bien que nous pouvons récupérer les éléments dans une base de données nous ne faisons pas toujours comme ça. 
+
+Dans cette exemple, nous allons créer un controller `avatars`. 
+
+Dans ce controller nous allons faire une def create qui **aura pour rôle d'ajouter** un avatar à un utilisateur. 
+
+```ruby
+  class AvatarsController < ApplicationController
+      def create
+        @user = User.find(params[:user_id])
+        @user.avatar.attach(params[:avatar])
+        redirect_to(user_path(@user))
+      end
+    end
+```
+> Exemple d'une def create qui aura pour but de récup les infos depuis la page initiale
+
+Explication du code : 
+
+1.  la ligne `@user = User.find(params[:user_id])` nous permet d'identifier l'utilisateur concerné. 
+ 
+ 2. Ensuite nous lui attribuons l'avatar dont la référence est contenue dans `params[:avatar]` avec la commande `@user.avatar.attach(params[:avatar])`. 
+ 
+ 3. Une fois cette association faite, on redirige vers la page show de cet utilisateur en suivant la route dynamique `user_path(@user)`.
+
+Evidemment maintenant il faut faire en sorte que notre premier controller comprenne le second, pour ça il va falloir faire quelques modification au niveau des routes. 
+
+
+```ruby
+ Rails.application.routes.draw do
+      resources :users, only: [:show] do
+        resources :avatars, only: [:create]
+      end
+    end
+```
+> Faire cette modification dans les routes permet de faire en sorte que lorsque quelqu'un utilise la route users, le create puisse être relié au controller avatar.
+
+Maintenant il ne reste plus qu'a **finaliser la page show**, pour qu'elle pointe vers le bon controller. 
+
+#### Finaliser le formulaire complet
 
 
