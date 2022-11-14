@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "7d62891edf83131c",
+            "id": "44821f562065c752",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Active Storage.md",
+                "file": "HTML/HTML.md",
                 "mode": "source",
                 "source": false
               }
@@ -70,8 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 346.5,
-    "collapsed": true
+    "width": 346.5
   },
   "right": {
     "id": "4f99a2856567b984",
@@ -87,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Active Storage.md",
+                "file": "HTML/HTML.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Active Storage.md",
+                "file": "HTML/HTML.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Active Storage.md"
+                "file": "HTML/HTML.md"
               }
             }
           },
@@ -147,17 +146,17 @@
     "width": 258.5,
     "collapsed": true
   },
-  "active": "7d62891edf83131c",
+  "active": "723dbd3d0b8a4204",
   "lastOpenFiles": [
-    "GitIgnore.md",
-    "Active Storage.md",
+    "Menu.md",
+    "Ruby On Rails/Ruby_On_Rails.md",
+    "Ruby On Rails/Rails/Rails.md",
+    "Github/Github.md",
+    "Github/GitIgnore.md",
+    "Ruby On Rails/Rails/Fonctionnalities/Active Storage.md",
     "IDE/Neovim/Nvchad.md",
     "CSS/Fondamentaux/Grid Layout.md",
     "IDE/Neovim/Neovim.md",
-    "Ruby On Rails/Ruby_On_Rails.md",
-    "Menu.md",
-    "Ruby On Rails/Rails/Assets/Asset Pipeline.md",
-    "Ruby On Rails/Gem/Devise.md",
-    "Ruby On Rails/Rails/Fonctionnalities/Stripe.md"
+    "Ruby On Rails/Rails/Assets/Asset Pipeline.md"
   ]
 }

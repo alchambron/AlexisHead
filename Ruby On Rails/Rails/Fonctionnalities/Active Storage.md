@@ -135,4 +135,24 @@ Maintenant il ne reste plus qu'a **finaliser la page show**, pour qu'elle pointe
 
 #### Finaliser le formulaire complet
 
+Dans la partie précedente, nous n'avions pas finaliser le formulaire. 
 
+Ce qu'il manque : 
+
+-   Lui indiquer la route qu'il doit pointer (par défaut, `form_tag` est déjà en `POST` donc ça, c'est ok) ;
+-   Rajouter un élément indispensable à un `form_tag` lorsqu'on veut qu'il puisse uploader des fichiers : l'option `multipart: true`
+
+```ruby
+    <h3>Changer d'avatar ?</h3>
+    <%= form_tag user_avatars_path(@user), multipart: true do %>
+      <%= file_field_tag :avatar %>
+      <%= submit_tag "mettre à jour" %>
+    <% end %>
+```
+> Formulaire complet. 
+
+#### Pour une mise en production
+
+A faire 
+
+[Regarder le cours ](https://www.thehackingproject.org/fr/dashboard/courses/1/weeks/4/days/4)
