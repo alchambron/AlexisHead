@@ -186,7 +186,7 @@ Prenons un exemple concret: pour un petit projet de calendrier interne de la boi
 
 Pour gérer tous ces fichiers voici à quoi cela ressemblerais dans le `application.css`. 
 
-```ruby
+```css
     /* ...
     *= require bootstrap
     *= require acme_ui_kit
