@@ -8,6 +8,8 @@ Related to [[THP]]
 
 >à quel besoin réponds-tu ?
 
+Nous préparons un site internet complet pour un lieu multiservices et multicturel.
+
 L'objectif de notre site web est de permettre au visiteur d'organiser leurs venues, et d'accéder facilement à des informations complètes de nos divers services.
 
 Nos services :  
@@ -44,7 +46,7 @@ L'utilsateurs aura la possibilité via notre site web
 - Afficher les tarifs des différents loisirs
 
 ##### Service annexe
-- Permettre de s'inscrire / se connecter 
+- Permettre de s'inscrire / se connecter et d'acceder à un espace client.
 
 
 ## Techniquement ?
@@ -59,9 +61,6 @@ L'utilsateurs aura la possibilité via notre site web
 	- Date de naissance
 	- Numéro de téléphone
 	- Password
-	- Abonné
-	- Date fin Abonnement
-
 
 - Reservation de table
 	- User_id 
@@ -73,6 +72,11 @@ L'utilsateurs aura la possibilité via notre site web
 	- User_id
 	- Date
 	- Heure
+
+
+#### Front
+
+
 
 
 
