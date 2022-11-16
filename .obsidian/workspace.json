@@ -11,24 +11,16 @@
             "id": "44821f562065c752",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "THP/Projets Final Full Stack/Reunion/Structure descriptive.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           },
           {
             "id": "913ec1d850b659c4",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "THP/Projets Final Full Stack/Question Projet Final pour Office Hours.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -98,7 +90,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "THP/Projets Final Full Stack/Reunion/Structure descriptive.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +106,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "THP/Projets Final Full Stack/Reunion/Structure descriptive.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,9 +127,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "THP/Projets Final Full Stack/Reunion/Structure descriptive.md"
-              }
+              "state": {}
             }
           },
           {
@@ -160,8 +148,8 @@
   },
   "active": "44821f562065c752",
   "lastOpenFiles": [
-    "THP/Projets Final Full Stack/Question Projet Final pour Office Hours.md",
     "THP/Projets Final Full Stack/Reunion/Structure descriptive.md",
+    "THP/Projets Final Full Stack/Question Projet Final pour Office Hours.md",
     "THP/Cours/Week_8-Day_3/lesson_02.md",
     "THP/Cours/Week_8-Day_3/project_01.md",
     "THP/Cours/Week_8-Day_3/lesson_01.md",
