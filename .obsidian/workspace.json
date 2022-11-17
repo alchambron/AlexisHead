@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Les chaîne de caractères.md",
+                "file": "Javascript/Basics/Les objets littéraux.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Les chaîne de caractères.md",
+                "file": "Javascript/Basics/Les objets littéraux.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Les chaîne de caractères.md",
+                "file": "Javascript/Basics/Les objets littéraux.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Les chaîne de caractères.md"
+                "file": "Javascript/Basics/Les objets littéraux.md"
               }
             }
           },
@@ -149,14 +149,14 @@
   "active": "44821f562065c752",
   "lastOpenFiles": [
     "Javascript/Javascript.md",
-    "Les arrays.md",
-    "Javascript/Basics/Les variables.md",
+    "Javascript/Basics/Les chaîne de caractères.md",
     "Javascript/Basics/Les boucles.md",
+    "Javascript/Basics/Les variables.md",
+    "Javascript/Basics/Les arrays.md",
     "Javascript/Basics/Basics.md",
     "Menu.md",
     "Ruby On Rails/Rails/Assets/Asset Pipeline.md",
     "CSS/Bootstrap/Fonctionnalités/Dropdown menu.md",
-    "THP/Projets Final Full Stack/Reunion/Structure descriptive.md",
-    "THP/Projets Final Full Stack/Question Projet Final pour Office Hours.md"
+    "THP/Projets Final Full Stack/Reunion/Structure descriptive.md"
   ]
 }

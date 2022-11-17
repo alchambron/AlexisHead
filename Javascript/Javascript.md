@@ -6,4 +6,5 @@
 - [[Les variables]]
 - [[Les arrays]]
 - [[Les chaîne de caractères]]
+- [[Les objets littéraux]]
 - [[Les boucles]]
