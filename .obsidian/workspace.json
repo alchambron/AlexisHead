@@ -13,21 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ruby On Rails/Rails/Assets/Asset Pipeline.md",
+                "file": "Javascript/Javascript.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "913ec1d850b659c4",
+            "id": "031d4562e87c6eff",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Javascript/Basics/Les variables.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -78,7 +83,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 346.5
+    "width": 346.5,
+    "collapsed": true
   },
   "right": {
     "id": "4f99a2856567b984",
@@ -94,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ruby On Rails/Rails/Assets/Asset Pipeline.md",
+                "file": "Javascript/Basics/Les variables.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ruby On Rails/Rails/Assets/Asset Pipeline.md",
+                "file": "Javascript/Basics/Les variables.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ruby On Rails/Rails/Assets/Asset Pipeline.md"
+                "file": "Javascript/Basics/Les variables.md"
               }
             }
           },
@@ -154,17 +160,17 @@
     "width": 258.5,
     "collapsed": true
   },
-  "active": "44821f562065c752",
+  "active": "031d4562e87c6eff",
   "lastOpenFiles": [
+    "Javascript/Javascript.md",
+    "Javascript/Basics/Les boucles.md",
+    "Javascript/Basics/Basics.md",
+    "Menu.md",
+    "Ruby On Rails/Rails/Assets/Asset Pipeline.md",
     "CSS/Bootstrap/Fonctionnalités/Dropdown menu.md",
     "THP/Projets Final Full Stack/Reunion/Structure descriptive.md",
     "THP/Projets Final Full Stack/Question Projet Final pour Office Hours.md",
     "THP/Cours/Week_8-Day_3/lesson_02.md",
-    "THP/Cours/Week_8-Day_3/project_01.md",
-    "THP/Cours/Week_8-Day_3/lesson_01.md",
-    "THP/Cours/lesson_02.md",
-    "CSS/Fonctionnalités/Hoover.md",
-    "CSS/Fondamentaux/Grid Layout.md",
-    "HTML/HTML.md"
+    "THP/Cours/Week_8-Day_3/project_01.md"
   ]
 }

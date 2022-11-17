@@ -11,6 +11,8 @@
 
 - [[Ruby_On_Rails]]
 - [[Database]]
+- [[Javascript]]
+
 
 #### Outils
 
