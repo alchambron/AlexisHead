@@ -49,10 +49,16 @@ Si on décortique la logique :
 
 -   **La variable `data3` est en `let` et déclarée dans le sous-bloc**. Elle n'est pas visible en dehors du sous-bloc : on a donc une erreur en l'appelant dans le bloc principal.
 
+##### Les variables constantes
 
-### Utilisation
+On peut créer des **variable qui ne peuvent jamais changer,** dans l'idée ce sont des `var` mais qui ne change jamais. 
 
+Pour faire ça on utilise 
 
+```js
+const maVariable
+```
+> Cette variable sera donc constante et non modifiable dans tout le projet.
 
 
 
