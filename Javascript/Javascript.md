@@ -9,3 +9,7 @@
 - [[Les objets littéraux]]
 - [[Les conditions]]
 - [[Les boucles]]
+- [[Les fonctions]]
+
+- [[Cheatsheet]]
+

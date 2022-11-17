@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "88d27f73f621ff30",
+        "id": "a312fe73bed6b2be",
         "type": "tabs",
         "children": [
           {
-            "id": "8a2fb446ca8fc833",
+            "id": "cb8d8191c02f22c2",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Javascript/Javascript.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -66,8 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 346.5,
-    "collapsed": true
+    "width": 346.5
   },
   "right": {
     "id": "4f99a2856567b984",
@@ -83,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Javascript/Javascript.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Javascript/Javascript.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -120,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Javascript/Javascript.md"
+              }
             }
           },
           {
@@ -139,17 +146,17 @@
     "width": 258.5,
     "collapsed": true
   },
-  "active": "8a2fb446ca8fc833",
+  "active": "cb8d8191c02f22c2",
   "lastOpenFiles": [
+    "Cheatsheet.md",
+    "Javascript/Javascript.md",
+    "Les fonctions.md",
+    "Menu.md",
     "Javascript/Basics/Les boucles.md",
     "Javascript/Basics/Les variables.md",
     "Javascript/Basics/Les conditions.md",
-    "Javascript/Javascript.md",
     "Javascript/Basics/Les objets littéraux.md",
     "Javascript/Basics/Les chaîne de caractères.md",
-    "Javascript/Basics/Les arrays.md",
-    "Javascript/Basics/Basics.md",
-    "Menu.md",
-    "Ruby On Rails/Rails/Assets/Asset Pipeline.md"
+    "Javascript/Basics/Les arrays.md"
   ]
 }
