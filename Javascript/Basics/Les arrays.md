@@ -97,4 +97,3 @@ statusDeTHP.slice(2,4)
 > Ses valeurs seront celles comprises entre l'index 2 (inclus) et 4 (exclus).
 
 **Attention** à ne pas confondre `splice` et `slice`
-

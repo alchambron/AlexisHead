@@ -13,3 +13,6 @@
 
 - [[Cheatsheet]]
 
+#### Fonctionnalités
+
+-  [[DOM]]

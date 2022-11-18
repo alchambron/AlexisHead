@@ -18,8 +18,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "0646539bc0f52ac3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Javascript/Fonctionnalités/DOM.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7db3eae3021e633c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Javascript/Basics/Les boucles.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -70,7 +95,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 346.5
+    "width": 346.5,
+    "collapsed": true
   },
   "right": {
     "id": "4f99a2856567b984",
@@ -86,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Javascript/Javascript.md",
+                "file": "Javascript/Fonctionnalités/DOM.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Javascript/Javascript.md",
+                "file": "Javascript/Fonctionnalités/DOM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Javascript/Javascript.md"
+                "file": "Javascript/Fonctionnalités/DOM.md"
               }
             }
           },
@@ -146,17 +172,17 @@
     "width": 258.5,
     "collapsed": true
   },
-  "active": "cb8d8191c02f22c2",
+  "active": "0646539bc0f52ac3",
   "lastOpenFiles": [
-    "Cheatsheet.md",
     "Javascript/Javascript.md",
-    "Les fonctions.md",
-    "Menu.md",
+    "Javascript/Fonctionnalités/DOM.md",
+    "Javascript/Basics/Les arrays.md",
     "Javascript/Basics/Les boucles.md",
-    "Javascript/Basics/Les variables.md",
-    "Javascript/Basics/Les conditions.md",
-    "Javascript/Basics/Les objets littéraux.md",
     "Javascript/Basics/Les chaîne de caractères.md",
-    "Javascript/Basics/Les arrays.md"
+    "Javascript/Basics/Les objets littéraux.md",
+    "Javascript/Basics/Les conditions.md",
+    "Javascript/Basics/Les variables.md",
+    "Javascript/Basics/Cheatsheet.md",
+    "Javascript/Basics/Les fonctions.md"
   ]
 }
