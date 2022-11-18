@@ -25,3 +25,22 @@ Voici pour nos exemples l'éléments que l'ont veut récupérer depuis notre htm
 ```js
 var div = document.getElementById('hello')
 ```
+> Permet de récupérer les éléments depuis un "ID"
+
+Attention ! C'est le seul ou "Element" n'a pas de S. 
+
+- **getElementsByTagName**
+
+```js
+var div = document.getElementsByTagName('div')
+```
+> Permet de récupérer les éléments depuis un tag HTML.
+
+- **getElementsByClassName**
+
+```js
+var div = document.getElementsByClassName('hello')
+```
+> Permet de récupérer les éléments depuis la class mentionner dans le tag HTML
+
+
