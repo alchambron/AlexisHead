@@ -43,8 +43,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -112,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Javascript/Fonctionnalités/DOM.md",
+                "file": "Javascript/Javascript.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Javascript/Fonctionnalités/DOM.md",
+                "file": "Javascript/Javascript.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Javascript/Fonctionnalités/DOM.md"
+                "file": "Javascript/Javascript.md"
               }
             }
           },
@@ -172,12 +171,12 @@
     "width": 258.5,
     "collapsed": true
   },
-  "active": "0646539bc0f52ac3",
+  "active": "cb8d8191c02f22c2",
   "lastOpenFiles": [
-    "Javascript/Javascript.md",
-    "Javascript/Fonctionnalités/DOM.md",
-    "Javascript/Basics/Les arrays.md",
     "Javascript/Basics/Les boucles.md",
+    "Javascript/Fonctionnalités/DOM.md",
+    "Javascript/Javascript.md",
+    "Javascript/Basics/Les arrays.md",
     "Javascript/Basics/Les chaîne de caractères.md",
     "Javascript/Basics/Les objets littéraux.md",
     "Javascript/Basics/Les conditions.md",
