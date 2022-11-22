@@ -1,5 +1,12 @@
 {
   "attachmentFolderPath": "Dev/SQL",
   "alwaysUpdateLinks": true,
-  "vimMode": true
+  "vimMode": true,
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  }
 }

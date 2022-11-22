@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Github/GitIgnore.md",
+                "file": "IDE/Neovim/Nvchad.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7db1353f31261076",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Ruby On Rails/Rails/Assets/Adding Javascript to Rails.md",
                 "mode": "source",
                 "source": false
               }
@@ -37,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hackaton/Readme.md",
+                "file": "Ruby On Rails/Rails/Assets/Asset Pipeline.md",
                 "mode": "source",
                 "source": false
               }
@@ -68,7 +80,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -136,7 +148,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Hackaton/Readme.md",
+                "file": "Ruby On Rails/Rails/Assets/Adding Javascript to Rails.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -153,7 +165,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Hackaton/Readme.md",
+                "file": "Ruby On Rails/Rails/Assets/Adding Javascript to Rails.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -176,7 +188,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Hackaton/Readme.md"
+                "file": "Ruby On Rails/Rails/Assets/Adding Javascript to Rails.md"
               }
             }
           },
@@ -196,17 +208,17 @@
     "width": 258.5,
     "collapsed": true
   },
-  "active": "30bac5fd9063acbb",
+  "active": "723dbd3d0b8a4204",
   "lastOpenFiles": [
-    "().md",
-    "Hackaton/Readme.md",
+    "IDE/Neovim/Nvchad.md",
+    "Github/GitIgnore.md",
     "Ruby On Rails/Rails/MVC/Rails_Route.md",
+    "Ruby On Rails/Rails/Assets/Asset Pipeline.md",
+    "Ruby On Rails/Rails/Basics/Create Rails App.md",
+    "().md",
+    "rails new.md",
+    "Hackaton/Readme.md",
     "Ruby On Rails/Rails/MVC/MVC.md",
-    "Ruby On Rails/Rails/MVC/Controller.md",
-    "Ruby On Rails/Rails/Fonctionnalities/Active Storage.md",
-    "Ruby On Rails/Rails/Fonctionnalities/Helpers Tag/Helpers Tag.md",
-    "Ruby On Rails/Rails/Fonctionnalities/Scaffold.md",
-    "Ruby On Rails/Rails/DataBase/Résumé Data Base.md",
-    "Ruby On Rails/Rails/DataBase/Model.md"
+    "Ruby On Rails/Rails/MVC/Controller.md"
   ]
 }
