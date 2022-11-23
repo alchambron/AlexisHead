@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ruby On Rails/Rails/Assets/Adding Javascript to Rails.md",
+                "file": "Ruby On Rails/Ruby_On_Rails.md",
                 "mode": "source",
                 "source": false
               }
@@ -131,8 +131,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 346.5,
-    "collapsed": true
+    "width": 346.5
   },
   "right": {
     "id": "4f99a2856567b984",
@@ -148,7 +147,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ruby On Rails/Rails/Assets/Adding Javascript to Rails.md",
+                "file": "Ruby On Rails/Ruby_On_Rails.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -165,7 +164,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ruby On Rails/Rails/Assets/Adding Javascript to Rails.md",
+                "file": "Ruby On Rails/Ruby_On_Rails.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -188,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ruby On Rails/Rails/Assets/Adding Javascript to Rails.md"
+                "file": "Ruby On Rails/Ruby_On_Rails.md"
               }
             }
           },
@@ -208,8 +207,9 @@
     "width": 258.5,
     "collapsed": true
   },
-  "active": "723dbd3d0b8a4204",
+  "active": "7db1353f31261076",
   "lastOpenFiles": [
+    "Ruby On Rails/Rails/Assets/Adding Javascript to Rails.md",
     "IDE/Neovim/Nvchad.md",
     "Github/GitIgnore.md",
     "Ruby On Rails/Rails/MVC/Rails_Route.md",
@@ -218,7 +218,6 @@
     "().md",
     "rails new.md",
     "Hackaton/Readme.md",
-    "Ruby On Rails/Rails/MVC/MVC.md",
-    "Ruby On Rails/Rails/MVC/Controller.md"
+    "Ruby On Rails/Rails/MVC/MVC.md"
   ]
 }
