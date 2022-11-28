@@ -11,8 +11,12 @@
             "id": "e8b01a9d66f6de80",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "2022-11-27.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -83,6 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "2022-11-27.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,6 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "2022-11-27.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -120,7 +126,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "2022-11-27.md"
+              }
             }
           },
           {
@@ -141,6 +149,7 @@
   },
   "active": "e8b01a9d66f6de80",
   "lastOpenFiles": [
+    "Javascript/Basics/Les arrays.md",
     "Javascript/Basics/Les boucles.md",
     "Javascript/Fonctionnalités/DOM.md",
     "Ruby On Rails/Rails/Assets/Asset Pipeline.md",
@@ -149,7 +158,6 @@
     "IDE/Neovim/Nvchad.md",
     "Ruby On Rails/Rails/Assets/Adding Javascript to Rails.md",
     "Github/GitIgnore.md",
-    "Ruby On Rails/Rails/Basics/Create Rails App.md",
-    "().md"
+    "Ruby On Rails/Rails/Basics/Create Rails App.md"
   ]
 }
