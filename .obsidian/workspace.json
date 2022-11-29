@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e8b01a9d66f6de80",
+            "id": "f599afff18872e15",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2022-11-27.md",
+                "file": "Ruby On Rails/Rails/Fonctionnalities/Scaffold.md",
                 "mode": "source",
                 "source": false
               }
@@ -38,7 +38,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "script",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,8 +65,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -87,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2022-11-27.md",
+                "file": "Ruby On Rails/Rails/Fonctionnalities/Scaffold.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2022-11-27.md",
+                "file": "Ruby On Rails/Rails/Fonctionnalities/Scaffold.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2022-11-27.md"
+                "file": "Ruby On Rails/Rails/Fonctionnalities/Scaffold.md"
               }
             }
           },
@@ -147,17 +146,17 @@
     "width": 258.5,
     "collapsed": true
   },
-  "active": "e8b01a9d66f6de80",
+  "active": "f599afff18872e15",
   "lastOpenFiles": [
+    "CSS/Bootstrap/Fonctionnalités/Dropdown menu.md",
+    "Ruby On Rails/Rails/Assets/Adding Javascript to Rails.md",
+    "Ruby On Rails/Rails/DataBase/Migration.md",
+    "Ruby On Rails/Gem/Devise.md",
+    "Ruby On Rails/Rails/Basics/Create Rails App.md",
+    "2022-11-27.md",
     "Javascript/Basics/Les arrays.md",
     "Javascript/Basics/Les boucles.md",
     "Javascript/Fonctionnalités/DOM.md",
-    "Ruby On Rails/Rails/Assets/Asset Pipeline.md",
-    "Ruby On Rails/Rails/MVC/Rails_Route.md",
-    "Ruby On Rails/Ruby_On_Rails.md",
-    "IDE/Neovim/Nvchad.md",
-    "Ruby On Rails/Rails/Assets/Adding Javascript to Rails.md",
-    "Github/GitIgnore.md",
-    "Ruby On Rails/Rails/Basics/Create Rails App.md"
+    "Ruby On Rails/Rails/Assets/Asset Pipeline.md"
   ]
 }
