@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ruby On Rails/Rails/Fonctionnalities/Scaffold.md",
+                "file": "Ruby On Rails/Gem/Devise.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ruby On Rails/Rails/Fonctionnalities/Scaffold.md",
+                "file": "Ruby On Rails/Gem/Devise.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ruby On Rails/Rails/Fonctionnalities/Scaffold.md",
+                "file": "Ruby On Rails/Gem/Devise.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ruby On Rails/Rails/Fonctionnalities/Scaffold.md"
+                "file": "Ruby On Rails/Gem/Devise.md"
               }
             }
           },
@@ -148,15 +148,15 @@
   },
   "active": "f599afff18872e15",
   "lastOpenFiles": [
+    "Ruby On Rails/Rails/Assets/Asset Pipeline.md",
+    "Github/GitIgnore.md",
+    "Ruby On Rails/Rails/Fonctionnalities/Scaffold.md",
     "CSS/Bootstrap/Fonctionnalités/Dropdown menu.md",
     "Ruby On Rails/Rails/Assets/Adding Javascript to Rails.md",
     "Ruby On Rails/Rails/DataBase/Migration.md",
     "Ruby On Rails/Gem/Devise.md",
     "Ruby On Rails/Rails/Basics/Create Rails App.md",
     "2022-11-27.md",
-    "Javascript/Basics/Les arrays.md",
-    "Javascript/Basics/Les boucles.md",
-    "Javascript/Fonctionnalités/DOM.md",
-    "Ruby On Rails/Rails/Assets/Asset Pipeline.md"
+    "Javascript/Basics/Les arrays.md"
   ]
 }
