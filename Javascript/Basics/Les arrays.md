@@ -2,6 +2,9 @@ Related to : [[Javascript]]
 
 ---
 
+[Cours complet](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Global_Objects/Array)
+
+
 ### Fonctionnement
 
 #### Créer un array
@@ -97,3 +100,36 @@ statusDeTHP.slice(2,4)
 > Ses valeurs seront celles comprises entre l'index 2 (inclus) et 4 (exclus).
 
 **Attention** à ne pas confondre `splice` et `slice`
+
+---
+
+#### Refaire un array à partir d'un autre array
+
+On peut utiliser la fonction `map` pour refaire un array. Elle fonctionne de la même manière qu'une boucle, avec une variable d'instance. 
+
+
+```javascript
+const numbers = [1, 2, 3, 4];
+const doubled = numbers.map(item => item * 2);
+console.log(doubled); // [2, 4, 6, 8]
+```
+> On prent item comme variable d'instance, et c'est avec celle ci que l'ont agis. 
+
+---
+
+#### Filtrer les éléments d'un array 
+
+Pour filtrer les éléments d'un array, on peut utiliser `filter`.
+
+```javascript
+const numbers = [1, 2, 3, 4];
+const evens = numbers.filter(item => item % 2 === 0);
+console.log(evens); // [2, 4]
+```
+
+--- 
+
+#### Sortir une réponse boolean d'un array
+
+Pour ressortir une réponse **true** or **false**, on p
+
