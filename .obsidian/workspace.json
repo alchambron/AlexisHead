@@ -18,21 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "2c180ef56dd17acb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Github/GitIgnore.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -99,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Github/GitIgnore.md",
+                "file": "Menu.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Github/GitIgnore.md",
+                "file": "Menu.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Github/GitIgnore.md"
+                "file": "Menu.md"
               }
             }
           },
@@ -171,17 +158,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2c180ef56dd17acb",
+  "active": "d43023b9fb9490d4",
   "lastOpenFiles": [
+    "font-awesome.md",
+    "Javascript/Basics/Les arrays.md",
+    "Github/GitIgnore.md",
     "Github/Github.md",
     "Github/Profile/Improve Github Profile.md",
     "Menu.md",
     "Test/Menu.md",
     "Test/Note du soir.md",
     "CSS/Bootstrap/Fonctionnalités/Dropdown menu.md",
-    "HTML/HTML.md",
-    "Ruby On Rails/Rails/Mailer/Mailer.md",
-    "Ruby On Rails/Ruby_On_Rails.md",
-    "Ruby On Rails/Rails/Assets/Asset Pipeline.md"
+    "HTML/HTML.md"
   ]
 }
