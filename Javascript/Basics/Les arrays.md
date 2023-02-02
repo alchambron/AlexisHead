@@ -6,6 +6,8 @@ Related to : [[Javascript]]
 
 ### Fonctionnement
 
+
+
 #### Créer un array
 
 Pour créer un array, c'est un peu comme définir une variable
