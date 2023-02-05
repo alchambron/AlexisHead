@@ -32,6 +32,54 @@
             }
           },
           {
+            "id": "b22dd5df854c43f8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Material UI/Material UI.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a4c4e1fd6be89baf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Material UI/Basics/Installation.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "60bc823dd9c0859f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Material UI/Components/Autocomplete.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "69f87ba3273885c2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Material UI/Basics/Installation.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "64b7c9216b08307c",
             "type": "leaf",
             "state": {
@@ -44,7 +92,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -111,7 +159,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Javascript/Basics/Les arrays.md",
+                "file": "Material UI/Basics/Installation.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +176,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Javascript/Basics/Les arrays.md",
+                "file": "Material UI/Basics/Installation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +199,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Javascript/Basics/Les arrays.md"
+                "file": "Material UI/Basics/Installation.md"
               }
             }
           },
@@ -183,17 +231,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "015bcf600ee06efa",
+  "active": "69f87ba3273885c2",
   "lastOpenFiles": [
-    "Javascript/Fonctionnalités/API en Javascript.md",
+    "Material UI/Components/Button.md",
+    "Material UI/Components/Autocomplete.md",
     "API/API.md",
+    "Material UI/Basics/Installation.md",
+    "Material UI/Material UI.md",
+    "Javascript/Basics/Les arrays.md",
+    "Javascript/Fonctionnalités/API en Javascript.md",
     "Github/GitIgnore.md",
     "Menu.md",
-    "font-awesome.md",
-    "Javascript/Basics/Les arrays.md",
-    "Github/Github.md",
-    "Github/Profile/Improve Github Profile.md",
-    "Test/Menu.md",
-    "Test/Note du soir.md"
+    "font-awesome.md"
   ]
 }
