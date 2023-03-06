@@ -92,19 +92,29 @@
             }
           },
           {
+            "id": "b353229d6664e145",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.1.15"
+              }
+            }
+          },
+          {
             "id": "64b7c9216b08307c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Github/GitIgnore.md",
+                "file": "Ruby On Rails/Rails/Fonctionnalities/Scaffold.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -171,7 +181,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "THP/Projet/Final.md",
+                "file": "Ruby On Rails/Rails/Fonctionnalities/Scaffold.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -188,7 +198,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "THP/Projet/Final.md",
+                "file": "Ruby On Rails/Rails/Fonctionnalities/Scaffold.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -211,7 +221,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "THP/Projet/Final.md"
+                "file": "Ruby On Rails/Rails/Fonctionnalities/Scaffold.md"
               }
             }
           },
@@ -243,8 +253,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "94a034e57b17a6e2",
+  "active": "64b7c9216b08307c",
   "lastOpenFiles": [
+    "Ruby On Rails/Rails/Basics/Create Rails App.md",
+    "Github/GitIgnore.md",
     "Material UI/Basics/Installation.md",
     "Material UI/Components/Button.md",
     "Material UI/Components/Autocomplete.md",
@@ -252,7 +264,6 @@
     "Material UI/Material UI.md",
     "Javascript/Basics/Les arrays.md",
     "Javascript/Fonctionnalités/API en Javascript.md",
-    "Github/GitIgnore.md",
     "Menu.md",
     "font-awesome.md"
   ]
