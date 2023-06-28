@@ -107,7 +107,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "THP/Projet/Final.md",
+                "file": "Javascript/Basics/Les fonctions.md",
                 "mode": "source",
                 "source": false
               }
@@ -181,7 +181,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "THP/Projet/Final.md",
+                "file": "Javascript/Basics/Les fonctions.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -198,7 +198,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "THP/Projet/Final.md",
+                "file": "Javascript/Basics/Les fonctions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -221,7 +221,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "THP/Projet/Final.md"
+                "file": "Javascript/Basics/Les fonctions.md"
               }
             }
           },
@@ -255,6 +255,12 @@
   },
   "active": "64b7c9216b08307c",
   "lastOpenFiles": [
+    "Javascript/Basics/Les objets littéraux.md",
+    "Javascript/Basics/Les conditions.md",
+    "Javascript/Basics/Les chaîne de caractères.md",
+    "Javascript/Basics/Les boucles.md",
+    "Javascript/Basics/Les arrays.md",
+    "THP/Projet/Final.md",
     "Ruby On Rails/Rails/Fonctionnalities/Scaffold.md",
     "Ruby On Rails/Rails/Basics/Create Rails App.md",
     "Github/GitIgnore.md",
@@ -263,7 +269,6 @@
     "Material UI/Components/Autocomplete.md",
     "API/API.md",
     "Material UI/Material UI.md",
-    "Javascript/Basics/Les arrays.md",
     "Javascript/Fonctionnalités/API en Javascript.md",
     "Menu.md",
     "font-awesome.md"
