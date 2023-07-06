@@ -112,9 +112,31 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "fee7818b778a04cd",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.3.5"
+              }
+            }
+          },
+          {
+            "id": "7006ac39880e6d29",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Javascript/Basics/Les arrays.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 8
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -159,6 +181,14 @@
                 "sortOrder": "alphabetical"
               }
             }
+          },
+          {
+            "id": "fb0c241c0818659d",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
           }
         ],
         "currentTab": 2
@@ -181,7 +211,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Javascript/Basics/Les fonctions.md",
+                "file": "Javascript/Basics/Les arrays.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -198,7 +228,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Javascript/Basics/Les fonctions.md",
+                "file": "Javascript/Basics/Les arrays.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -221,7 +251,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Javascript/Basics/Les fonctions.md"
+                "file": "Javascript/Basics/Les arrays.md"
               }
             }
           },
@@ -253,7 +283,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "64b7c9216b08307c",
+  "active": "7006ac39880e6d29",
   "lastOpenFiles": [
     "Javascript/Basics/Les objets littéraux.md",
     "Javascript/Basics/Les conditions.md",
