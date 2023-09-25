@@ -144,9 +144,19 @@
                 "currentVersion": "1.3.7"
               }
             }
+          },
+          {
+            "id": "1404219a51eb1542",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.4.5"
+              }
+            }
           }
         ],
-        "currentTab": 11
+        "currentTab": 12
       }
     ],
     "direction": "vertical"
@@ -293,7 +303,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c4626b71fae0219c",
+  "active": "1404219a51eb1542",
   "lastOpenFiles": [
     "Ruby On Rails/Rails/Fonctionnalities/Active Storage.md",
     "Ruby On Rails/Rails/DataBase/Migration.md",
